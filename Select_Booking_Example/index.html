@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://padreu.com/wp-content/themes/pbx-theme/css/pbx.css?ver=0.10.24.3">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    
+<div class="col-sm-6 col-md-3 pbx-book-col">
+        <div class="form-group">
+            <label class="pbx-form-label" for="children"># of People</label>
+                <div class="dropdown">
+                    <button class="form-control pbx-form-input  btn dropdown-toggle w-100 bg-transparent text-left" type="button" id="gest-label" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        2 Adults
+                    </button>
+                    <div class="dropdown-menu w-100 pb-0 pbx-prevent-close" aria-labelledby="myDropdown">
+                        <div id='pbx-guest-form' class="px-3 pt-2">
+                            <div class="form-group row pbx-adult">
+                                <label for="staticEmail" class="col-5 col-form-label"><span id="number" class='quantity-guest'>2</span>
+                                    <span id="text-adult">adults</span></label>
+                                <div class="col text-right">
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-add-adult pbx-guest-form-button pbx-plus"></button>
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-decrese-adult pbx-guest-form-button pbx-minus"></button>
+                                </div>
+                                <input type="hidden" value="2" name="adult" id="adult">
+                            </div>
+                            <div class="form-group row pbx-senior">
+                                <label for="staticEmail" class="col-5 col-form-label"><span id="number" class='quantity-guest'>0</span>
+                                    <span id="text-senior">senior</span></label>
+                                <div class="col text-right">
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-add-senior pbx-guest-form-button pbx-plus"></button>
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-decrese-senior pbx-guest-form-button pbx-minus"></button>
+                                </div>
+                                <input type="hidden" value="0" name="senior" id="senior">
+                            </div>
+                            <div class="form-group row pbx-child mb-2">
+                                <label for="staticEmail" class="col-5 col-form-label"><span id="number" class='quantity-guest'>0</span>
+                                    <span id="text-child">child</span></label>
+                                <div class="col text-right">
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-add-child pbx-guest-form-button pbx-plus"></button>
+                                    <button type="button" class="btn pbx-math btn-primary rounded-circle pbx-decrese-child pbx-guest-form-button pbx-minus"></button>
+                                </div>
+                            </div>
+                            <div>
+                    </div>
+                </div>
+        </div>
+    </div>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+  <script src="index.js"></script>
+    
+</body>
+</html>

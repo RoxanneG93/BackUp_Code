@@ -1,0 +1,23 @@
+button.dropdown-toggle:after {
+    position: absolute;
+    right: 18px;
+    top:7px;
+}
+
+.pbx-guest-form-button{
+  padding:0;
+  line-height:0px;
+  font-size:15px;
+  width:30px;
+  height:30px;
+}
+
+.pbx-form-input {
+    padding: 30px 12px 6px 12px;
+    margin-top: -36px
+}
+
+.pbx-icons{
+  max-height:25px;
+  max-width:20px;
+}
