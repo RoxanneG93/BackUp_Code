@@ -26,9 +26,11 @@ $("document").ready(function() {
             $option = '<option>0-1</option>',
             guest_label = [];
     
+        // loop for child age option
         for (i = 2; i <= 17; i++)
             $option += '<option>' + i + '</option>';
-    
+        
+        
         var oldValue = $button.parent().parent().find("label").find("#number").text();
         if ($button.hasClass('pbx-add-senior')) {
             var newVal = parseFloat(oldValue) + 1;
